@@ -13,6 +13,9 @@
     <next>
       <block type="oled_drawtext" id="27">
         <field name="TEXT">Navya is amazing</field>
+        <next>
+          <block type="oled_cleardisplay" id="45"></block>
+        </next>
       </block>
     </next>
   </block>
