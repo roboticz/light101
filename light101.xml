@@ -1,5 +1,24 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="oled_color" id="228" x="10" y="0">
     <field name="OBJECT">GREEN</field>
+    <next>
+      <block type="oled_setcursor" id="237" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="238">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="239">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_drawtext" id="248">
+            <field name="TEXT">LOL</field>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
